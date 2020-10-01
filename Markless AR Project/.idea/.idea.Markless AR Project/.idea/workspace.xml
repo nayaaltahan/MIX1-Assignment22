@@ -20,18 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5ed80028-8891-4f10-aca2-dc42f97f3fd4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/HelloAR/Materials/Portal.mat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/HelloAR/Materials/Portal.mat.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/HelloAR/Materials/Portal.shader" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/HelloAR/Materials/Portal.shader.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Markless AR Project/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Markless AR Project/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Markless AR Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Markless AR Project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HelloAR/Materials/PortalPlane.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HelloAR/Materials/PortalPlane.shader" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HelloAR/Materials/video.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HelloAR/Materials/video.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HelloAR/Materials/video.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HelloAR/Materials/video.shader" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/HelloAR/Scenes/HelloAR.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HelloAR/Scenes/HelloAR.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HelloAR/Scripts/PortalManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HelloAR/Scripts/PortalManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HelloAR/Scripts/TrackedPlaneVisualize.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HelloAR/Scripts/TrackedPlaneVisualize.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HelloAR/Scripts/ARController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HelloAR/Scripts/ARController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,11 +40,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/HelloAR/Scripts/GridVisualizer.cs" />
-        <option value="$PROJECT_DIR$/Assets/HelloAR/Scripts/ARController.cs" />
         <option value="$PROJECT_DIR$/Assets/HelloAR/Materials/video.shader" />
         <option value="$PROJECT_DIR$/Assets/HelloAR/Scripts/TrackedPlaneVisualize.cs" />
         <option value="$PROJECT_DIR$/Assets/HelloAR/Materials/PortalPlane.shader" />
         <option value="$PROJECT_DIR$/Assets/HelloAR/Scripts/PortalManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/HelloAR/Scripts/ARController.cs" />
       </list>
     </option>
   </component>
@@ -109,7 +100,7 @@
       <updated>1601125867928</updated>
       <workItem from="1601125897744" duration="7672000" />
       <workItem from="1601542812801" duration="582000" />
-      <workItem from="1601544613120" duration="5164000" />
+      <workItem from="1601544613120" duration="7793000" />
     </task>
     <servers />
   </component>

@@ -27,19 +27,22 @@ public class ARController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        return;
+        //check if ARcore session is tracking
         if (Session.Status != SessionStatus.Tracking)
         {
             return;
         }
         
+        //We get the the newly detected planes in this frame
         Session.GetTrackables<DetectedPlane>(m_NewTrackedPlanes, TrackableQueryFilter.New);
 
-        foreach (var t in m_NewTrackedPlanes)
+        //for each detected plane we create a grid
+        foreach (var detectedPlane in m_NewTrackedPlanes)
         {
             GameObject grid = Instantiate(GridPrefab, Vector3.zero, Quaternion.identity, transform);
             
-            grid.GetComponent<GridVisualizer>().Initialize(t);
+            //
+            grid.GetComponent<GridVisualizer>().Initialize(detectedPlane);
         }
 
         Touch touch;
