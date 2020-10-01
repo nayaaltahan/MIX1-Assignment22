@@ -1,11 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ed80028-8891-4f10-aca2-dc42f97f3fd4" name="Default Changelist" comment="" />
+    <list default="true" id="5ed80028-8891-4f10-aca2-dc42f97f3fd4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/HelloAR/Materials/Portal.mat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/HelloAR/Materials/Portal.mat.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/HelloAR/Materials/Portal.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/HelloAR/Materials/Portal.shader.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Markless AR Project/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Markless AR Project/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Markless AR Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Markless AR Project/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HelloAR/Materials/PortalPlane.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HelloAR/Materials/PortalPlane.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HelloAR/Materials/video.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HelloAR/Materials/video.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HelloAR/Materials/video.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HelloAR/Materials/video.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HelloAR/Scenes/HelloAR.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HelloAR/Scenes/HelloAR.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HelloAR/Scripts/PortalManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HelloAR/Scripts/PortalManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HelloAR/Scripts/TrackedPlaneVisualize.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HelloAR/Scripts/TrackedPlaneVisualize.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/HelloAR/Scripts/PortalManager.cs" root0="FORCE_HIGHLIGHTING" />
@@ -17,16 +51,22 @@
         <option value="$PROJECT_DIR$/Assets/HelloAR/Scripts/GridVisualizer.cs" />
         <option value="$PROJECT_DIR$/Assets/HelloAR/Scripts/ARController.cs" />
         <option value="$PROJECT_DIR$/Assets/HelloAR/Materials/video.shader" />
+        <option value="$PROJECT_DIR$/Assets/HelloAR/Scripts/TrackedPlaneVisualize.cs" />
+        <option value="$PROJECT_DIR$/Assets/HelloAR/Materials/PortalPlane.shader" />
         <option value="$PROJECT_DIR$/Assets/HelloAR/Scripts/PortalManager.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="1i3ANb7p73GeC2KkMh8GmhWCYju" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -68,6 +108,8 @@
       <option name="presentableId" value="Default" />
       <updated>1601125867928</updated>
       <workItem from="1601125897744" duration="7672000" />
+      <workItem from="1601542812801" duration="582000" />
+      <workItem from="1601544613120" duration="5164000" />
     </task>
     <servers />
   </component>
@@ -76,7 +118,20 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">

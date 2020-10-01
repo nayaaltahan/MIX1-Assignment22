@@ -1,25 +1,15 @@
 ﻿// (c) 2018 Guidev
 // This code is licensed under MIT license (see LICENSE.txt for details)
 
-Shader "Unlit/VideoShader"
+Shader "Unlit/Portal"
 {
-	Properties
-	{
-		_MainTex ("Texture", 2D) = "white" {}
-		[Enum(CompareFunction)] _StencilComp("Stencil Comp", Int) = 3
-	}
 	SubShader
 	{
 		Tags { "RenderType"="Opaque" }
 		LOD 100
-		Cull front
 
 		Pass
 		{
-			Stencil{
-				Ref 1
-				Comp [_StencilComp]
-			}
 			CGPROGRAM
 			#pragma vertex vert
 			#pragma fragment frag
@@ -54,8 +44,10 @@ Shader "Unlit/VideoShader"
 			
 			fixed4 frag (v2f i) : SV_Target
 			{
-				float4 texCol = tex2D(_MainTex, i.uv);
-				return texCol;
+				float3 normal = normalize(i.normal);
+				float3 lightDir = normalize(float3(0.0, 10.0, 10.0));
+				float l = max(dot(lightDir, normal), 0.0);
+				return fixed4(l, l, l, 1.0f) + fixed4(0.3, 0.3, 0.3, 1.0);
 			}
 			ENDCG
 		}

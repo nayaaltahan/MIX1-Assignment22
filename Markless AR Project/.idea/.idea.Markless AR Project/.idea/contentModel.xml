@@ -323,6 +323,7 @@
         </e>
         <e p="HelloAR" t="Include">
           <e p="Materials" t="Include">
+            <e p="Portal.shader" t="Include" />
             <e p="PortalPlane.shader" t="Include" />
             <e p="video.shader" t="Include" />
           </e>

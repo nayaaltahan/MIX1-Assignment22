@@ -3,13 +3,19 @@
 
 Shader "Unlit/PortalPlane"
 {
+	Properties
+	{
+		[Enum(CullMode)] _CullMode("Cull Mode", Int) = 0
+	}
+	
 	SubShader
 	{
 		Tags { "RenderType"="Opaque" }
 		LOD 100
 		Zwrite Off
 		ColorMask 0
-
+		Cull [_CullMode]
+		
 		Pass
 		{
 			Stencil{

@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: video
-  m_Shader: {fileID: 4800000, guid: 039059924340667489a93b7724b8ba72, type: 3}
+  m_Name: Portal
+  m_Shader: {fileID: 4800000, guid: 00d5f4c61607803439944e2a43e59bd2, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -70,7 +70,6 @@ Material:
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
-    - _StencilComp: 3
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
