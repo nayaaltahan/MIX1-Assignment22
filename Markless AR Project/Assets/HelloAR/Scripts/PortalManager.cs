@@ -24,6 +24,7 @@ public class PortalManager : MonoBehaviour
         PortalPlaneMaterial = GetComponent<Renderer>().sharedMaterial;
         VideoPlayer = Video.GetComponent<VideoPlayer>();
         VideoPlayer.Stop();
+        Video.SetActive(false);
     }
 
     // Update is called once per frame
@@ -39,6 +40,8 @@ public class PortalManager : MonoBehaviour
                 VideoMaterials[i].SetInt("_StencilComp", (int) CompareFunction.NotEqual);
             }
             
+            Video.SetActive(true);
+            
             VideoPlayer.Play();
             
             PortalPlaneMaterial.SetInt("_CullMode", (int) CullMode.Front);
@@ -52,6 +55,8 @@ public class PortalManager : MonoBehaviour
                 VideoMaterials[i].SetInt("_StencilComp", (int)CompareFunction.Always);
             }
             
+            Video.SetActive(true);
+
             VideoPlayer.Play();
             
             PortalPlaneMaterial.SetInt("_CullMode", (int) CullMode.Off);
@@ -65,6 +70,8 @@ public class PortalManager : MonoBehaviour
                 VideoMaterials[i].SetInt("_StencilComp", (int)CompareFunction.Equal);
             }
             
+            Video.SetActive(false);
+
             VideoPlayer.Pause();
             
             PortalPlaneMaterial.SetInt("_CullMode", (int) CullMode.Back);

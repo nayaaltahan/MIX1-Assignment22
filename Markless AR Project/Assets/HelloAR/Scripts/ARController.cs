@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 using GoogleARCore;
-
+using UnityEngine.Serialization;
 #if UNITY_EDITOR
 using input = GoogleARCore.InstantPreviewInput;
 #endif
@@ -14,7 +14,7 @@ public class ARController : MonoBehaviour
 
     public GameObject GridPrefab;
 
-    public GameObject Portal;
+    [FormerlySerializedAs("Portal")] public GameObject Portals;
 
     public GameObject ARCamera;
     
@@ -55,15 +55,15 @@ public class ARController : MonoBehaviour
         if (Frame.Raycast(touch.position.x, touch.position.y, TrackableHitFlags.PlaneWithinPolygon, out hit))
         {
             //Placing the Portal on the tracked plane.
-            Portal.SetActive(true);
+            Portals.SetActive(true);
             
             //creating the anchor
             var anchor = Session.CreateAnchor(hit.Pose, hit.Trackable);
 
-            Instantiate(Portal, anchor.transform.position, anchor.transform.rotation, anchor.transform);
+            Instantiate(Portals, anchor.transform.position, anchor.transform.rotation, anchor.transform);
 
-            Portal.transform.position = hit.Pose.position;
-            Portal.transform.rotation = hit.Pose.rotation;
+            Portals.transform.position = hit.Pose.position;
+            Portals.transform.rotation = hit.Pose.rotation;
 
 
             //portal should face the camera
@@ -73,10 +73,10 @@ public class ARController : MonoBehaviour
             cameraPosition.y = hit.Pose.position.y;
             
             //Rotate the portal to face the camera
-            Portal.transform.LookAt(cameraPosition, Portal.transform.up);
+            Portals.transform.LookAt(cameraPosition, Portals.transform.up);
 
             //Update coordinates when the anchor is updated.
-            Portal.transform.parent = anchor.transform;
+            Portals.transform.parent = anchor.transform;
         }
     }
 }
