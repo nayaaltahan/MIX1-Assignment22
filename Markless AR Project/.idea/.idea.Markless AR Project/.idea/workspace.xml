@@ -21,8 +21,11 @@
   <component name="ChangeListManager">
     <list default="true" id="5ed80028-8891-4f10-aca2-dc42f97f3fd4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Markless AR Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Markless AR Project/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Plugins/google_ar_optional.aar.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GoogleARCore/SDK/Plugins/google_ar_optional.aar.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HelloAR/Materials/PortalPlane.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HelloAR/Materials/PortalPlane.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/HelloAR/Scenes/HelloAR.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HelloAR/Scenes/HelloAR.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/HelloAR/Scripts/ARController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HelloAR/Scripts/ARController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HelloAR/Scripts/PortalManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HelloAR/Scripts/PortalManager.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,8 +46,8 @@
         <option value="$PROJECT_DIR$/Assets/HelloAR/Materials/video.shader" />
         <option value="$PROJECT_DIR$/Assets/HelloAR/Scripts/TrackedPlaneVisualize.cs" />
         <option value="$PROJECT_DIR$/Assets/HelloAR/Materials/PortalPlane.shader" />
-        <option value="$PROJECT_DIR$/Assets/HelloAR/Scripts/PortalManager.cs" />
         <option value="$PROJECT_DIR$/Assets/HelloAR/Scripts/ARController.cs" />
+        <option value="$PROJECT_DIR$/Assets/HelloAR/Scripts/PortalManager.cs" />
       </list>
     </option>
   </component>
@@ -101,6 +104,7 @@
       <workItem from="1601125897744" duration="7672000" />
       <workItem from="1601542812801" duration="582000" />
       <workItem from="1601544613120" duration="10726000" />
+      <workItem from="1601562895539" duration="8960000" />
     </task>
     <servers />
   </component>
@@ -130,9 +134,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1601126744881" />
-    <state x="439" y="11" width="657" height="801" key="find.popup" timestamp="1601127702108">
+    <state x="439" y="11" width="658" height="801" key="find.popup" timestamp="1601565005341">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="439" y="11" width="657" height="801" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1601127702108" />
+    <state x="439" y="11" width="658" height="801" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1601565005341" />
   </component>
 </project>

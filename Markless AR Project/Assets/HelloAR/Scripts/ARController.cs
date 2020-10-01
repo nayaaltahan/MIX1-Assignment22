@@ -62,6 +62,10 @@ public class ARController : MonoBehaviour
 
             Instantiate(Portal, anchor.transform.position, anchor.transform.rotation, anchor.transform);
 
+            Portal.transform.position = hit.Pose.position;
+            Portal.transform.rotation = hit.Pose.rotation;
+
+
             //portal should face the camera
             Vector3 cameraPosition = ARCamera.transform.position;
 
