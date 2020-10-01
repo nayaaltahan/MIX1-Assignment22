@@ -41,7 +41,6 @@ public class ARController : MonoBehaviour
         {
             GameObject grid = Instantiate(GridPrefab, Vector3.zero, Quaternion.identity, transform);
             
-            //
             grid.GetComponent<GridVisualizer>().Initialize(detectedPlane);
         }
 
@@ -50,23 +49,29 @@ public class ARController : MonoBehaviour
         {
             return;
         }
-
+        
+        // 
         TrackableHit hit;
         if (Frame.Raycast(touch.position.x, touch.position.y, TrackableHitFlags.PlaneWithinPolygon, out hit))
         {
+            //Placing the Portal on the tracked plane.
             Portal.SetActive(true);
+            
+            //creating the anchor
+            var anchor = Session.CreateAnchor(hit.Pose, hit.Trackable);
 
-            Anchor anchor = hit.Trackable.CreateAnchor(hit.Pose);
+            Instantiate(Portal, anchor.transform.position, anchor.transform.rotation, anchor.transform);
 
-            Portal.transform.position = hit.Pose.position;
-            Portal.transform.rotation = hit.Pose.rotation;
-
+            //portal should face the camera
             Vector3 cameraPosition = ARCamera.transform.position;
 
+            //set the Y as a fixed coordinate 
             cameraPosition.y = hit.Pose.position.y;
             
+            //Rotate the portal to face the camera
             Portal.transform.LookAt(cameraPosition, Portal.transform.up);
 
+            //Update coordinates when the anchor is updated.
             Portal.transform.parent = anchor.transform;
         }
     }
