@@ -20,15 +20,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5ed80028-8891-4f10-aca2-dc42f97f3fd4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/HelloAR/Prefabs/Portal.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/HelloAR/Prefabs/Portal.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/HelloAR/Videos/A London City Guided Tour - 360 VR Video.mp4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/HelloAR/Videos/A London City Guided Tour - 360 VR Video.mp4.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/HelloAR/Videos/flipped_london_cropped.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/HelloAR/Videos/flipped_london_cropped.mp4.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ProjectSettings/XRPackageSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Data/flipped_paris_cropped.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/../Data/flipped_paris_cropped.mp4" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Markless AR Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Markless AR Project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HelloAR/Materials/PortalPlane.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HelloAR/Materials/PortalPlane.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HelloAR/Materials/video.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HelloAR/Materials/video.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/HelloAR/Scenes/HelloAR.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HelloAR/Scenes/HelloAR.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/HelloAR/Scripts/ARController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HelloAR/Scripts/ARController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HelloAR/Scripts/PortalManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HelloAR/Scripts/PortalManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HelloAR/Videos/A London City Guided Tour - 360 VR Video.mp4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HelloAR/Videos/A London City Guided Tour - 360 VR Video.mp4.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HelloAR/Videos/flipped_paris_cropped.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HelloAR/Videos/flipped_paris_cropped.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/HelloAR/Videos/flipped_paris_cropped.mp4.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/HelloAR/Videos/flipped_paris_cropped.mp4.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,8 +53,9 @@
         <option value="$PROJECT_DIR$/Assets/HelloAR/Materials/video.shader" />
         <option value="$PROJECT_DIR$/Assets/HelloAR/Scripts/TrackedPlaneVisualize.cs" />
         <option value="$PROJECT_DIR$/Assets/HelloAR/Materials/PortalPlane.shader" />
-        <option value="$PROJECT_DIR$/Assets/HelloAR/Scripts/PortalManager.cs" />
         <option value="$PROJECT_DIR$/Assets/HelloAR/Scripts/ARController.cs" />
+        <option value="$PROJECT_DIR$/Assets/GoogleARCore/SDK/InstantPreview/Scripts/InstantPreviewManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/HelloAR/Scripts/PortalManager.cs" />
       </list>
     </option>
   </component>
@@ -107,7 +112,7 @@
       <workItem from="1601125897744" duration="7672000" />
       <workItem from="1601542812801" duration="582000" />
       <workItem from="1601544613120" duration="10726000" />
-      <workItem from="1601562895539" duration="9924000" />
+      <workItem from="1601562895539" duration="15151000" />
     </task>
     <servers />
   </component>

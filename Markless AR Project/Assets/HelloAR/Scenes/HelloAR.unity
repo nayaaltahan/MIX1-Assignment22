@@ -152,7 +152,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   GridPrefab: {fileID: 6612033890487196084, guid: 01b842c9c4cad45469dc946a34cbbe92,
     type: 3}
-  Portal: {fileID: 919132149076303005}
+  Portals: {fileID: 919132149076303005}
   ARCamera: {fileID: 766854637}
 --- !u!4 &577388934
 Transform:
@@ -197,13 +197,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 766854637}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.96, z: 6.06}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: 0, y: 0.96, z: 3.82}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1512909049}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!114 &766854639
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -211,7 +211,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 766854637}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: eb172c260d42e4f62945afda50892c0c, type: 3}
   m_Name: 
@@ -224,7 +224,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 766854637}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5a2a9c34df4095f47b9ca8f975175f5b, type: 3}
   m_Name: 
@@ -414,17 +414,52 @@ PrefabInstance:
       propertyPath: MainCamera
       value: 
       objectReference: {fileID: 766854637}
+    - target: {fileID: 452568067766588643, guid: d87cb53340e2b0f48813197c8826c9dc,
+        type: 3}
+      propertyPath: Portals
+      value: 
+      objectReference: {fileID: 1119382889}
     - target: {fileID: 452568069630308737, guid: d87cb53340e2b0f48813197c8826c9dc,
         type: 3}
       propertyPath: m_Name
       value: London
       objectReference: {fileID: 0}
+    - target: {fileID: 452568069630308737, guid: d87cb53340e2b0f48813197c8826c9dc,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 452568069630308739, guid: d87cb53340e2b0f48813197c8826c9dc,
+        type: 3}
+      propertyPath: m_TargetAudioSources.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 452568069630308739, guid: d87cb53340e2b0f48813197c8826c9dc,
+        type: 3}
+      propertyPath: m_DirectAudioVolumes.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 452568069630308739, guid: d87cb53340e2b0f48813197c8826c9dc,
+        type: 3}
+      propertyPath: m_EnabledAudioTracks.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 452568069630308739, guid: d87cb53340e2b0f48813197c8826c9dc,
+        type: 3}
+      propertyPath: m_DirectAudioMutes.Array.size
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 452568069630308739, guid: d87cb53340e2b0f48813197c8826c9dc,
         type: 3}
       propertyPath: m_VideoClip
       value: 
-      objectReference: {fileID: 32900000, guid: bc7affc930d068e4dba9237359a6dd56,
+      objectReference: {fileID: 32900000, guid: 45adda9e9aed27c4180352b9d7715404,
         type: 3}
+    - target: {fileID: 452568069630308739, guid: d87cb53340e2b0f48813197c8826c9dc,
+        type: 3}
+      propertyPath: m_ControlledAudioTrackCount
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 758488832850230741, guid: d87cb53340e2b0f48813197c8826c9dc,
         type: 3}
       propertyPath: m_Name
@@ -462,7 +497,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1512909047}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d4ca0c6a3af6b4635b7e98c6ea0a0cf9, type: 3}
   m_Name: 
@@ -552,6 +587,22 @@ PrefabInstance:
       propertyPath: MainCamera
       value: 
       objectReference: {fileID: 766854637}
+    - target: {fileID: 452568067766588643, guid: d87cb53340e2b0f48813197c8826c9dc,
+        type: 3}
+      propertyPath: Portals
+      value: 
+      objectReference: {fileID: 1119382889}
+    - target: {fileID: 452568069630308737, guid: d87cb53340e2b0f48813197c8826c9dc,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 452568069630308739, guid: d87cb53340e2b0f48813197c8826c9dc,
+        type: 3}
+      propertyPath: m_VideoClip
+      value: 
+      objectReference: {fileID: 32900000, guid: 9d817eb12306f4042b726c5e6bbcadd5,
+        type: 3}
     - target: {fileID: 758488832850230741, guid: d87cb53340e2b0f48813197c8826c9dc,
         type: 3}
       propertyPath: m_Name
